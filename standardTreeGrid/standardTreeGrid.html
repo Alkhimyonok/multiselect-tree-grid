@@ -1,0 +1,12 @@
+<template>
+	<div class="slds-scrollable_y tree-grid">
+		<lightning-tree-grid
+			columns={gridColumns}
+			data={gridData}
+			key-field="label"
+			selected-rows={selectedRows}
+			onrowselection={handleRowSelection}
+			ontoggle={handleToggle}
+		></lightning-tree-grid>
+	</div>
+</template>
