@@ -1,4 +1,0 @@
-<aura:component description="AIRcaPage" implements="lightning:isUrlAddressable">
-	<c:standardTreeGrid class="tree" aura:id="grid-component" onaddminusevent="{!c.addStyleMinus}"
-		ondeleteminusevent="{!c.deleteParentMinus}" />
-</aura:component>
