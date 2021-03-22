@@ -1,0 +1,21 @@
+.THIS.rca-lwc-component
+	.rca-container
+	lightning-icon.slds-icon-standard-omni-supervisor {
+	background-color: #2a739e;
+}
+.THIS.tree .tree-grid span.slds-th__action lightning-button-menu.slds-th__action-button {
+	display: none;
+}
+
+.THIS.tree .tree-grid .minus span.slds-checkbox_faux:after{
+	content: '';
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: var(--lwc-squareIconXSmallContent,0.5rem);
+	height: 2px;
+	border: 0;
+	transform: translate3d(-50%, -50%, 0);
+	background: var(--sds-c-checkbox-mark-color-foreground, var(--lwc-brandAccessible,rgb(0, 112, 210)));
+}
